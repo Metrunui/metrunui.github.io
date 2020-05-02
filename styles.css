@@ -73,9 +73,10 @@ ul li:hover a {
 .home {
 	background: url("images/absolution.jpg");
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	padding-top: 360px;
+	padding-top: 420px;
 	padding-bottom: 60px;
 }
 .tagline {
@@ -99,9 +100,9 @@ ul li:hover a {
 .thumbnail {
 	text-align: center;
 	float: left;
+	justify-content: center;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
@@ -120,60 +121,18 @@ ul li:hover a {
 /* Banner Section */
 .banner {
 	padding-top: 30px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-bottom: 100%;
 	text-align: left;
 }
 .banner h2 {
 	text-align: center;
 }
+.banner div {
+	text-align: center;
+}
 
-/* More info */
-footer {
-	background-color: lightblue;
-	padding-bottom: 35px;
-}
-.footer_column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
-}
-footer .footer_column h3 {
-	color: black;
-	text-align: center;
-}
-footer .footer_column p {
-	color: #717070;
-	background-color: lightblue;
-}
-.cards {
-	width: 100%;
-	height: auto;
-	max-width: 50%;
-	max-height: 50%;
-}
-footer .footer_column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: center;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.footer_banner {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-	margin-bottom: 0px;
-	background-repeat: repeat;
-}
-footer {
-	display: inline-block;
-	color: black;
-}
 .hidden {
 	display: none;
 }
@@ -214,13 +173,8 @@ nav ul li {
 	padding-left: 0px;
 }
 .thumbnail {
-	width: 25%;
-}
-.footer_column {
 	width: 100%;
-	margin-top: 0px;
 }
-
 .tagline {
 	margin-top: 20px;
 	line-height: 22px;
@@ -280,9 +234,6 @@ nav ul li {
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
-}
-.thumbnail {
-	width: 100%;
 }
 .banner {
 	padding-left: 20px;
