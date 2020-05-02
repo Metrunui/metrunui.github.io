@@ -103,8 +103,8 @@ ul li:hover a {
 	display: inline-block;
 	text-align: center;
 	float: none;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
