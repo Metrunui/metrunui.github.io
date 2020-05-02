@@ -3,6 +3,10 @@
 body {
 	font-family: "Times New Roman", "serif";
 	background-color: lightgoldenrodyellow;
+	background-image: url("images/Shenron.png");
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: repeat-y;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -18,7 +22,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
-	background-color:#668ECC;
 }
 /* Navigation */
 header {
@@ -84,47 +87,20 @@ ul li:hover a {
 	font: bolder;
 	letter-spacing: 1px;
 }
-/* About Section */
-.text_column {
-	width: 29%;
-	text-align: left;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #52BAD5;
-	color: black;
-}
-.about {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 130px;
-	text-align: center;
-	display: inline-block;
-	background: url("images/water.jpg");
-	background-attachment: fixed;
-	margin-top: 0px;
-}
-.about p img {
-	text-align: center;
-}
 /* Gallery */
 .gallery {
 	clear: both;
 	display: inline-block;
-	width: 100%;
-	background-color: lightcoral;
-	min-width: 350px;
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
 	margin-bottom: 0px;
 }
 .thumbnail {
-	width: 25%;
 	text-align: center;
 	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
@@ -143,16 +119,11 @@ ul li:hover a {
 }
 /* Banner Section */
 .banner {
-	background-image: url("images/Shenron.png");
-	background-attachment: fixed;
-	background-position: top;
 	padding-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 60px;
+	padding-bottom: 100%;
 	text-align: left;
-	width: auto;
-	height: auto;
 }
 .banner h2 {
 	text-align: center;
@@ -270,6 +241,9 @@ nav ul li {
 	text-align: center;
 	color: #043745;
 }
+body {
+	background-image: url("images/Shenron.png");
+}
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -313,30 +287,5 @@ nav ul li {
 .banner {
 	padding-left: 20px;
 	padding-right: 20px;
-}
-}
-
-/* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 50%;
-}
-.text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
 }
 }
