@@ -23,10 +23,9 @@ body {
 	width: 100%;
 	float: center;
 	background-image: url("images/border.png");
-	background-position: top;
-	background-size: contain;
+	background-position: center;
+	background-size: 100% 100%;
 	background-attachment: fixed;
-	background-blend-mode: overlay;
 	align-content: center;
 	height: auto;
 }
@@ -73,21 +72,18 @@ ul li:hover a {
 .home_header {
 	color: #FFFFFF;
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
 	letter-spacing: 4px;
 }
 /* Home Section */
 .home {
-	background: url("images/absolution.jpg");
+	background: url("images/DB_Manga.gif");
+	display: inline-block;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 50px;
 	width: 100%;
-	padding-top: 420px;
-	padding-bottom: 60px;
 }
 .tagline {
 	text-align: center;
@@ -111,8 +107,6 @@ ul li:hover a {
 	display: inline-block;
 	text-align: center;
 	float: none;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
@@ -148,6 +142,9 @@ body div h1 {
 	height: auto;
 	width: auto;
 	text-align: center;
+}
+.container {
+	background-size: 100% auto;
 }
 .container header nav {
 	margin-top: 0px;
