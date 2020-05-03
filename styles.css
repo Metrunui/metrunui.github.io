@@ -22,8 +22,16 @@ body {
 .container {
 	width: 100%;
 	float: center;
+	background-image: url("images/border.png");
+	background-position: top;
+	background-size: contain;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
 	align-content: center;
 	height: auto;
+}
+.container background {
+	opacity: 50%;
 }
 /* Navigation */
 header {
