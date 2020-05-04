@@ -26,12 +26,14 @@ body {
 	background-position: center;
 	background-size: 100% 100%;
 	background-attachment: fixed;
+	text-align: center;
 	align-content: center;
 	height: auto;
 }
 .container background {
 	opacity: 50%;
 }
+
 /* Navigation */
 header {
 	width: 100%;
@@ -42,11 +44,12 @@ header {
 nav {
 	float: right;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 }
 header nav ul {
 	list-style: none;
 	float: left;
+	text-align: center;
 }
 nav ul li {
 	float: left;
