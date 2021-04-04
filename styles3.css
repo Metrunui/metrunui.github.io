@@ -114,14 +114,14 @@ ul li:hover a {
 	float: none;
 }
 .thumbnail h4 {
-	color: whitesmoke;
+	color: green;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: whitesmoke;
+	color: green;
 }
 /* Banner Section */
 body div h1 {
