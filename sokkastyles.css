@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: "Times New Roman", "serif";
+	background-color: black;
+	min-height: 500px;
+	background-image: url("images/book3-bg.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-position: top;
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+	float: center;
+	height: 100%;
+}
+/* Container */
+.container {
+	width: 100%;
+	float: center;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	text-align: center;
+	align-content: center;
+	height: auto;
+}
+.container background {
+	opacity: 50%;
+}
+
+/* Navigation */
+header {
+	width: 100%;
+	height: auto;
+	background-color: goldenrod;
+	border-bottom: 1px solid black;
+}
+nav {
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+header nav ul {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 25px;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: yellow;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: seagreen;
+}
+.container header nav {
+	background: goldenrod;
+}
+.home_header {
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 4px;
+}
+/* Home Section */
+.home {
+	background: url("images/DB_Manga.gif");
+	display: inline-block;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+.tagline {
+	text-align: center;
+	color: yellow;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font: bolder;
+	letter-spacing: 1px;
+}
+/* Gallery */
+.gallery {
+	clear: both;
+	display: inline-block;
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	display: inline-block;
+	text-align: center;
+	float: none;
+	color: white;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: white;
+}
+/* Banner Section */
+body div h1 {
+	display: inline-block;
+	float: center;
+	color: white;
+}
+.banner {
+	padding-top: 30px;
+	padding-bottom: 100%;
+	text-align: left;
+	color: gold;
+}
+.banner h2 {
+	text-align: center;
+}
+.banner div {
+	text-align: center;
+	color: gray;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.container {
+	background-size: 100% auto;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.thumbnail {
+	width: auto;
+}
+.home_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	height: auto;
+	width: auto;
+	text-align: center;
+	color: #043745;
+}
+body {
+	background-image: url("images/book3-bg.jpg");
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: goldenrod;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+}
