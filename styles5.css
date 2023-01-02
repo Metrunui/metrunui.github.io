@@ -88,7 +88,7 @@ ul li:hover a {
 	padding-top: 100px;
 	padding-bottom: 50px;
 	width: 100%;
-	color: whitesmoke;
+	color: yellow;
 }
 .tagline {
 	text-align: center;
@@ -121,7 +121,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: whitesmoke;
+	color: yellow;
 }
 /* Banner Section */
 body div h1 {
@@ -194,7 +194,7 @@ nav ul li {
 	color: #043745;
 }
 body {
-	background-image: url("images/NGE.jpg");
+	background-image: url("images/omnitrix_slam_background.png");
 }
 .container header nav {
 	margin-top: 0px;
@@ -205,7 +205,7 @@ body {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #52bad5;
+	background: #005212;
 }
 header nav ul {
 	padding: 0px;
