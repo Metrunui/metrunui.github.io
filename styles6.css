@@ -145,10 +145,10 @@ body div h1 {
 }
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 100%) {
 .logo {
 	height: auto;
-	width: auto;
+	width: 100%;
 	text-align: center;
 }
 .container {
@@ -175,7 +175,7 @@ nav ul li {
 	text-align: center;
 }
 .thumbnail {
-	width: auto;
+	width: 100%;
 }
 .home_header {
 	padding-left: 10px;
@@ -189,7 +189,7 @@ nav ul li {
 @media (min-width: 321px)and (max-width: 767px) {
 .logo {
 	height: auto;
-	width: auto;
+	width: 100%;
 	text-align: center;
 	color: #043745;
 }
@@ -212,7 +212,7 @@ header nav ul {
 	float: none;
 }
 .thumbnail iframe {
-	width: 720px;
+	width: 100%;
 	height: 480px;
 }
 
