@@ -213,7 +213,7 @@ header nav ul {
 }
 .thumbnail iframe {
 	width: 100%;
-	height: 480px;
+	height: auto;
 }
 
 nav ul li {
