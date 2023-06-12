@@ -1,4 +1,11 @@
 @charset "UTF-8";
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 /* Body */
 body {
 	font-family: "Times New Roman", "serif";
