@@ -24,7 +24,7 @@ body {
 	background-image: url("images/newyork.png");
 	position: relative;
 	display: flex;
-	aligh-items: center;
+	align-items: center;
 	justify-content: center;
 	
 }
