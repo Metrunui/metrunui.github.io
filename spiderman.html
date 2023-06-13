@@ -14,6 +14,13 @@
 <link rel="apple-touch-icon" href="images/spiderman/apple-touch-icon.png">
 <link rel="icon" sizes="192x192" href="images/spiderman/android.png">
 </head>
+<video poster="newyork.png" id="bgvid" playsinline autoplay muted loop>
+  <!-- 
+- Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="spiderman.mp4" type="video/mp4">
+
+</video>
 <body>
 <!-- Main Container -->
 <div class="container">
@@ -68,9 +75,6 @@
 		  <p><iframe src="" width="640" height="480" allowfullscreen="allowfullscreen"></iframe></p>
 	  	</div>
     </section>
-<video autoplay muted loop id="myVideo">
-  <source src="spiderman.mp4" type="video/mp4">
-</video>
 </div>
 </section>
 </div>
