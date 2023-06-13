@@ -19,7 +19,7 @@ body {
 	width: 100%;
 }
 .back-video {
-	position: absolute;
+	position: fixed;
 	width: auto;
 	height: 100%;
 	right: 0;
