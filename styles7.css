@@ -21,6 +21,11 @@ body {
 .back-video {
 	float: center;
 	width: auto;
+	background-attachment: fixed;
+	background-position: left;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100%;
 	right: 0;
 	bottom: 0;
