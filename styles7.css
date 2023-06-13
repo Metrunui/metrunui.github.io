@@ -2,6 +2,13 @@
 /* Body */
 body {
 	font-family: "Times New Roman", "serif";
+	background-color: #201c1c;
+	background-image: url("images/newyork.png");
+	background-attachment: fixed;
+	background-position: left;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -19,7 +26,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -100;
+  opactity: 10%;
 }
 /* Container */
 .container {
