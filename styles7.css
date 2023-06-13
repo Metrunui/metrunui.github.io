@@ -17,16 +17,6 @@ body {
 	font-weight: 200;
 	float: center;
 	width: 100%;
-	z-index: 0;
-}
-video { 
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opactity: 10%;
 }
 /* Container */
 .container {
