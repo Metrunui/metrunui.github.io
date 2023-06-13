@@ -2,13 +2,6 @@
 /* Body */
 body {
 	font-family: "Times New Roman", "serif";
-	background-color: #201c1c;
-	background-image: url("images/newyork.png");
-	background-attachment: fixed;
-	background-position: left;
-	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -17,19 +10,14 @@ body {
 	font-weight: 200;
 	float: center;
 	width: 100%;
-	z-index: -101;
 }
 video { 
-    position: fixed;
-    top: 100%;
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
- background: url('images/newyork.png') no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 /* Container */
 .container {
