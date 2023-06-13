@@ -19,13 +19,8 @@ body {
 	width: 100%;
 }
 .back-video {
-	float: center;
+	position: absolute;
 	width: auto;
-	background-attachment: fixed;
-	background-position: left;
-	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
 	height: 100%;
 	right: 0;
 	bottom: 0;
